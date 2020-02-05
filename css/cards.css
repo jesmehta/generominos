@@ -4,11 +4,11 @@ font-family: labelFont;
 
 /*
  background-size: 33%;
-  
+
   */
   margin: 0px;
   padding: 0px;
-   
+
    }
 
 svg {
@@ -38,7 +38,7 @@ svg {
 	text-align: center;
 	  background-size: 100% 100%;
     background-repeat: no-repeat;
-	
+
 }
 
 .title {
@@ -57,7 +57,7 @@ b {
 	font-size: 295px;
 	color: black;
 font-family: logoFont;
-	
+
 }
 
 
@@ -112,7 +112,7 @@ font-family: logoFont;
 	flex-direction: row;
 	padding: 2px;
 
-	
+
 }
 .card-transformation {
 	background-color: hsla(35, 0%, 100%, 1);
@@ -173,17 +173,17 @@ font-weight: bold;
 }
 
 .item {
-	
+
 	font-family: labelFont;
 	display: inline-flex;
 	flex-direction: row;
-	
+
 	width: 829px;
 }
 
 .item.item-sensor {
-	
-	
+
+
 	width: 315px;
 }
 
@@ -207,7 +207,7 @@ font-weight: bold;
 }
 
 .card {
-	box-shadow: inset 0px 0px 0px 10px white;
+	box-shadow: inset 0px 0px 0px 2px grey;
 	margin: 0px 0px;
 	font-family: labelFont;
 	 vertical-align: top;
@@ -216,14 +216,14 @@ font-weight: bold;
 	display: inline-flex;
 	flex-direction: column;
     page-break-inside: avoid;
-   
+
     text-align: center;
 
  box-sizing: border-box;
     width: 823px;
     height: 597px;
     padding: 32px;
-   
+
 
 
 }
@@ -234,7 +234,7 @@ canvas {
 
 #card-holder {
 
-	
+
 }
 .card-background {
 
@@ -268,13 +268,13 @@ flex-direction: row;
 	 flex-direction: column;
 	position: relative;
 	flex: 1;
-	
+
 }
 
 .socket-label {
 	margin: 8px;
 	flex: 1;
-	
+
 		line-height: 90%;
 	font-size: 32px;
 }
