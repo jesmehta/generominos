@@ -4,7 +4,7 @@
  * I'd recommend making a new entry in CardData for your custom cards, eg
  *    var cardData = {
  *	    katesCards: [{...},
- * 
+ *
  * A card must have a name, and an optional description
  * The type of card is set by which inputs and outputs it has
  * Input cards have "modOut" and "output" data types
@@ -93,7 +93,7 @@ var cardData = {
 	// CONTENT FROM THE REAL WORLD
 	contentInputs: [{
 		name: "generative text",
-		desc: "use a grammar, neural network, or a Markov chain to create generative text when an even occurs.",
+		desc: "use a grammar, neural network, or a Markov chain to create generative text when an event occurs.",
 		input: "event",
 		output: "text(generated text)"
 	}, {
